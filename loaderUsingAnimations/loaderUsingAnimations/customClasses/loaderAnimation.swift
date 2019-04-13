@@ -10,8 +10,8 @@ import UIKit
 
 class loaderAnimation: UIView {
     
-    var isStopAnimation: Bool = false
-    var isAlreadyStarted: Bool = false
+    private var isStopAnimation: Bool = false
+    private var isAlreadyStarted: Bool = false
     
     init(frame: CGRect, viewBGColor: UIColor, viewBorderWidth: CGFloat, viewBorderColor: UIColor, viewCornerRadius: CGFloat, viewImage: UIImage) {
         super.init(frame: frame)
@@ -61,7 +61,7 @@ class loaderAnimation: UIView {
         
     }
     
-    func animateFromCenterToRight() {
+    private func animateFromCenterToRight() {
         
         UIView.animate(withDuration: 0.25, animations: {
             //1.Expand
@@ -97,7 +97,7 @@ class loaderAnimation: UIView {
         
     }
     
-    func animateFromLeftToCenter() {
+    private func animateFromLeftToCenter() {
         
         UIView.animate(withDuration: 0.25, animations: {
             
