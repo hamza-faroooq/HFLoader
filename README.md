@@ -39,7 +39,7 @@ override func viewDidLoad() {
         self.view.addSubview(loaderView)
 }
 ```
-Note: One thing to keep in mind is that if you use Storyboard approach then the view is not hidden byDefault, but in programatically approach, the view is hidden by default.
+Note: One thing to keep in mind is that if you use Storyboard approach then the view is not hidden by default, but in programatic approach, the view is hidden by default.
 
 ### Control
 Write this line whenever you want to start using HFLoader:
