@@ -8,7 +8,7 @@ My name is Hamza Farooq and I love 'Swift' programming. I always try to implemen
 
 HFLoader is a new kind of activity indicator with some awesome animations. Try this new Loader in your projects and enhance the UI experience.
 
-![](HFLoaderRound.gif) ![](HFLoaderRound1.gif) ![](HFLoaderRound2.gif)
+![](HFLoaderRound.gif) ![](HFLoaderRound1.gif) ![](HFLoaderRound2.gif) ![](HFLoaderRound3.gif)
 
 ## Example
 
