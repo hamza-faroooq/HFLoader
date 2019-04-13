@@ -10,13 +10,13 @@ HFLoader is a new kind of activity indicator with some awesome animations. Try t
 
 ## Example
 
-To run the example project, clone the repo, and run [loaderUsingAnimations.xcodeproj](https://github.com/hamza-faroooq/HFLoader/tree/master/loaderUsingAnimations/loaderUsingAnimations.xcodeproj) from the 'loaderUsingAnimations' directory.
+To run the example project, clone the repo, and run [loaderUsingAnimations.xcodeproj](https://github.com/hamza-faroooq/HFLoader/tree/master/Example/loaderUsingAnimations/loaderUsingAnimations.xcodeproj) from the 'loaderUsingAnimations' directory.
 
 ## Usage
 
 Do the following simple steps to make an awesome [HFLoader](https://github.com/hamza-faroooq/HFLoader)
 
-First of all, download the project, and then place the file named [loaderAnimation.swift](https://github.com/hamza-faroooq/HFLoader/blob/master/loaderUsingAnimations/loaderUsingAnimations/customClasses/loaderAnimation.swift) in your project. 
+First of all, download the project, and then place the file named [loaderAnimation.swift](https://github.com/hamza-faroooq/HFLoader/blob/master/Main%20File%20To%20Be%20Used%20In%20Your%20Project/HFLoader.swift) in your project. 
 
 ### Initialization
 
