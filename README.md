@@ -18,7 +18,14 @@ Do the following simple steps to make an awesome [HFLoader](https://github.com/h
 
 First of all, download the project, and then place the file named [loaderAnimation.swift](https://github.com/hamza-faroooq/HFLoader/blob/master/loaderUsingAnimations/loaderUsingAnimations/customClasses/loaderAnimation.swift) in your project. 
 
-After this, make a new view as (e.g):
+### Initialization
+
+
+Then, there are two ways you can create HFLoader:
+
+* By storyboard, changing class of any UIView to loaderAnimation.
+
+* By code, using initializer.
 
 ```swift
 let loaderView = loaderAnimation(frame: CGRect.init(x: 0, y: 0, width: 50, height: 50), viewBGColor: .clear, viewBorderWidth: 2, viewBorderColor: UIColor.orange, viewCornerRadius: 5, viewImage: #imageLiteral(resourceName: "Icon-App-60x60"))
@@ -33,6 +40,7 @@ override func viewDidLoad() {
 }
 ```
 
+### Control
 Write this line whenever you want to start using HFLoader:
 
 ```swift
@@ -44,6 +52,26 @@ Write this line whenever you want to stop using HFLoader:
 ```swift
 loaderView.stopAnimation()
 ```
+
+### Change Properties
+
+You can adjust HFLoader at your own will. If you created HFLoader using storyboard, then you can write the following lines of code to change its appearance
+
+```swift
+lv.layer.borderColor = UIColor.black.cgColor
+lv.layer.borderWidth = 2.0
+lv.layer.cornerRadius = 8.0
+```
+
+This will change some properties of HFLoader View as provided. Where lv is the outlet of that view.
+
+And if you are creating HFLoader programatically then you can use it's initializer to change its properties. For Example:
+
+```swift
+let lv = loaderAnimation(frame: CGRect.init(x: 0, y: 0, width: 50, height: 50), viewBGColor: .clear, viewBorderWidth: 2, viewBorderColor: UIColor.orange, viewCornerRadius: 5, viewImage: #imageLiteral(resourceName: "Icon-App-60x60"))
+```
+
+You can set its frame as you like. Its position will always be centered no matter where you placed your view. 'viewBGColor' is used to change the background color of HFLoader View. And if you want to apply Border to your loader than you can change 'viewBorderWidth' value, and if not, than make it 0. Border Color will show only if Border Width will be provided. To make view a little round or fully round, apply some values to 'viewCornerRadius'. Finally 'viewImage' will be used if you want to add some kind of image or logo inside HFLoader View. Write 'UIImage()' if you don't want to use any image.
 
 That's it... :-)
 
