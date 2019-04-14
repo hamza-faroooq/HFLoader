@@ -51,6 +51,7 @@ Add loaderView as a subView in your controller's main view in your viewDidLoad()
 ```swift
 override func viewDidLoad() {
         super.viewDidLoad()
+        loaderView.clipsToBounds = True // if the image goes out of view's frame...
         self.view.addSubview(loaderView)
 }
 ```
