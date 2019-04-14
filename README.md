@@ -61,12 +61,14 @@ Note: One thing to keep in mind is that if you use Storyboard approach then the 
 Write this line whenever you want to start using HFLoader:
 
 ```swift
+UIApplication.shared.beginIgnoringInteractionEvents() // if you want to stuck the UI or disable user interaction
 loaderView.startAnimation()
 ```
 
 Write this line whenever you want to stop using HFLoader:
 
 ```swift
+UIApplication.shared.endIgnoringInteractionEvents() // enable user interaction
 loaderView.stopAnimation()
 ```
 
