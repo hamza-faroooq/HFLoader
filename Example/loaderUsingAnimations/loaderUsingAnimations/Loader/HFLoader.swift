@@ -39,7 +39,7 @@ class HFLoader: UIView {
         if !isAlreadyStarted {
 
             self.frame.origin.y = (UIScreen.main.bounds.height / 2) - self.frame.size.height / 2
-            self.frame.origin.x = (UIScreen.main.bounds.width / 2) - self.frame.size.height / 2
+            self.frame.origin.x = (UIScreen.main.bounds.width / 2) - self.frame.size.width / 2
 
             self.isHidden = false
             

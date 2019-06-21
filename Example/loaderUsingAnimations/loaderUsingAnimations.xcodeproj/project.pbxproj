@@ -92,19 +92,19 @@
 				1B1B19E622613B4800D1D246 /* App Delegate */,
 				1B1B19E822613B6000D1D246 /* UI */,
 				1B1B19E722613B5900D1D246 /* VC */,
-				1B4FFBF1225782EC004673D8 /* customClasses */,
+				1B4FFBF1225782EC004673D8 /* Loader */,
 				1B1B19E922613B6900D1D246 /* Supporting Files */,
 				1B4FFBEB2257774B004673D8 /* Info.plist */,
 			);
 			path = loaderUsingAnimations;
 			sourceTree = "<group>";
 		};
-		1B4FFBF1225782EC004673D8 /* customClasses */ = {
+		1B4FFBF1225782EC004673D8 /* Loader */ = {
 			isa = PBXGroup;
 			children = (
 				1B4FFBF22257830F004673D8 /* HFLoader.swift */,
 			);
-			path = customClasses;
+			path = Loader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
